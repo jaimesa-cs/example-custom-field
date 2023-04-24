@@ -2,6 +2,7 @@ import { Button, EmptyState } from "@contentstack/venus-components";
 
 import ContentstackUIExtension from "@contentstack/ui-extensions-sdk";
 import React from "react";
+import { dummy } from "./JavascriptComponents/Dummy";
 
 const MockHeading = () => {
   return <>Hello Guys!!</>;
@@ -10,6 +11,7 @@ const MockDescription = () => {
   return (
     <>
       <div>You are ready to implement your own logic.</div>
+      {dummy}
       <Button className="mt-10" buttonType="link" href="https://github.com/contentstack/extensions">
         Learn More
       </Button>
